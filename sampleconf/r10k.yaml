@@ -4,3 +4,6 @@
   :local:
     remote: 'https://github.com/amitbarai/puppet.git'
     basedir: /app/puppet/code/environments
+### To deploy user command 
+# /opt/puppetlabs/puppet/bin/r10k deploy environment -pv
+# /opt/puppetlabs/puppet/bin/r10k deploy environment -p -c r10k.yaml
