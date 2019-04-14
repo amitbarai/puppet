@@ -1,0 +1,2 @@
+* * * * * echo `date` >> /var/log/r10k.`date +%Y%m%d`.log 2>&1
+* * * * * /opt/puppetlabs/puppet/bin/r10k deploy environment -pv -c /etc/puppetlabs/puppet/r10k.yaml >> /var/log/r10k.`date +%Y%m%d`.log 2>&1
